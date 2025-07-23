@@ -27,9 +27,10 @@ export const useConnect = () => {
         appearance: {
           overlays: "dialog",
           variables: {
-            colorBackground: "#111827",
-            colorText: "#ffffff",
-          },
+      			colorPrimary: '#ebebeb',
+      			colorBackground: '#171717',
+      			overlayBackdropColor: 'rgba(0, 0, 0, 0.5)',
+      		},
         },
       })
     );
